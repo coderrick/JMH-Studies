@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+
+// JDK 7
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+	compile 'me.champeau.gradle:jmh-gradle-plugin:0.2.0'
+}
+
+apply plugin: 'me.champeau.gradle.jmh'
+
+
