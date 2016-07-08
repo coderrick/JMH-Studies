@@ -1,6 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'me.champeau.gradle.jmh'
+//TODO check out related plugins
 
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
