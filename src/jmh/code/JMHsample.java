@@ -6,11 +6,11 @@ import org.openjdk.jmh.runner.RunnerException;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
-public class JMHSample_01_HelloWorld {
+public class JMHsample {
 
     @Benchmark
     public void wellHelloThere() {
-        // this method was intentionally left blank.
+        // this method was intentionally left blank. fff
     }
 
     /*
@@ -30,7 +30,7 @@ public class JMHSample_01_HelloWorld {
 
     public static void main(String[] args) throws RunnerException {
         Options opt = new OptionsBuilder()
-                .include(".*" + JMHSample_01_HelloWorld.class.getSimpleName() + ".*")
+                .include(".*" + JMHsample.class.getSimpleName() + ".*")
                 .forks(1)
                 .build();
 
