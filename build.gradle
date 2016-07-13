@@ -11,7 +11,7 @@ buildscript {
       jcenter()
    }
    dependencies {
-      classpath 'me.champeau.gradle:jmh-gradle-plugin:0.1'
+      classpath 'me.champeau.gradle:jmh-gradle-plugin:0.3.1'
    }
 }
 
@@ -20,7 +20,7 @@ repositories {
 }
 
 jmh {
-    include = 'src\\.jmh\\.code\\.JMHsample.*'
+    include = '.src\\.jmh\\.code\\.JMHsample.*'
     humanOutputFile = null
 }
 
