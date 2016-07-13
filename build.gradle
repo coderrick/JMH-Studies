@@ -3,8 +3,8 @@ apply plugin: 'eclipse'
 apply plugin: 'me.champeau.gradle.jmh'
 //TODO check out related plugins
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 buildscript {
    repositories {
@@ -20,6 +20,7 @@ repositories {
 }
 
 jmh {
+    include = 'src\\.jmh\\.code\\.JMHsample.*'
     humanOutputFile = null
 }
 
