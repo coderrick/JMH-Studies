@@ -26,6 +26,7 @@ public class JMHsample {
      *    $ java -jar target/benchmarks.jar -h
      *
      * b) Via Java API:
+     *
      */
 
     public static void main(String[] args) throws RunnerException {
