@@ -25,6 +25,7 @@ jmh {
     include = '.src\\.jmh\\.code\\.JMHsample.*'
     humanOutputFile = null
 }
+//Do JMH bench marks have to be run as JARs? Why?...
 
 
 
