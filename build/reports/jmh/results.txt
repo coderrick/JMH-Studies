@@ -1,0 +1,2 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit"
+"jmh.code.JMHsample.wellHelloThere","thrpt",1,200.000000,1050416254.247024,28585591.663942,"ops/s"

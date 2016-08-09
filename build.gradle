@@ -2,7 +2,6 @@ apply plugin: 'java'
 apply plugin: 'application'
 apply plugin: 'eclipse'
 apply plugin: 'me.champeau.gradle.jmh'
-//TODO check out related plugins
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -28,21 +27,19 @@ buildscript {
    }
 }
 
- dependencies {      
-      compile 'me.champeau.gradle:jmh-gradle-plugin:0.2.0'
-      compile 'org.openjdk.jmh:jmh-core:1.9.3'
-      compile 'org.openjdk.jmh:jmh-generator-annprocess:1.9.3'
+dependencies {      
+     compile 'me.champeau.gradle:jmh-gradle-plugin:0.2.0'
+     compile 'org.openjdk.jmh:jmh-core:1.9.3'
+     compile 'org.openjdk.jmh:jmh-generator-annprocess:1.9.3'
 }
 
 jmh {
-    include = '.src\\.jmh\\.code\\.JMHsample.*'
+    include = ''//https://github.com/melix/jmh-gradle-plugin/issues/6
     humanOutputFile = null
-    //append 'META-INF/BenchmarkList'
-	//append 'META-INF/CompilerHints'
 }
 
 jmhJar {
-	manifest.attributes 'Main-Class': tasks.jmh.main
+	manifest.attributes 'Main-Class': mainClassName
 	//append 'META-INF/BenchmarkList'
 	//append 'META-INF/CompilerHints'
 }
