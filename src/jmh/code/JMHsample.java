@@ -1,4 +1,4 @@
-package org.openjdk.jmh.samples;
+package jmh.code;
 
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.runner.Runner;
