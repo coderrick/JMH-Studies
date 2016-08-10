@@ -25,7 +25,7 @@ public class JMHsample {
      * The runtime options for the JMH are available with "-h":
      *    $ java -jar target/benchmarks.jar -h
      *
-     * b) Via Java API:
+     * b) Via Java API :
      *
      */
 
