@@ -10,7 +10,7 @@ public class JMHsample {
 
     @Benchmark
     public void wellHelloThere() {
-        // this method was intentionally left blank. fff
+        // this method was intentionally left blank. 
     }
 
     /*
@@ -18,7 +18,7 @@ public class JMHsample {
      *
      *
      * a) Via command-line:
-     *    $ mvn clean install
+     *    $ gradle build
      *    $ java -jar target/benchmarks.jar ".*JMHSample_01.*"
      *
      * JMH generates self-contained JARs, bundling JMH together with it.
@@ -37,5 +37,4 @@ public class JMHsample {
 
         new Runner(opt).run();
     }
-
 }
