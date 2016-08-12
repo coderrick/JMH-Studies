@@ -15,8 +15,6 @@ public class JMHsample {
 
     /*
      * ============================== HOW TO RUN THIS TEST: ====================================
-     *
-     *
      * a) Via command-line:
      *    $ gradle build
      *    $ java -jar target/benchmarks.jar ".*JMHSample_01.*"
