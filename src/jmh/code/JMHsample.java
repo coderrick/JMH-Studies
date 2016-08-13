@@ -21,7 +21,7 @@ public class JMHsample {
      *
      * JMH generates self-contained JARs, bundling JMH together with it.
      * The runtime options for the JMH are available with "-h":
-     *    $ java -jar target/benchmarks.jar -h
+     * $ java -jar target/benchmarks.jar -h
      *
      * b) Via Java API :
      *
