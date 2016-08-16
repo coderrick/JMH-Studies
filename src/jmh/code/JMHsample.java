@@ -10,7 +10,7 @@ public class JMHsample {
 
     @Benchmark
     public void wellHelloThere() {
-        // this method was intentionally left blank. 
+        // this method was intentionally left blank... 
     }
 
     /*
