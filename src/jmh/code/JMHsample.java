@@ -17,7 +17,7 @@ public class JMHsample {
      * ============================== HOW TO RUN THIS TEST: ====================================
      * a) Via command-line:
      *    $ gradle build
-     *    $ java -jar target/benchmarks.jar ".*JMHSample_01.*"
+     *    $ java -jar target/benchmarks.jar ".*JMHSample.*"
      *
      * JMH generates self-contained JARs, bundling JMH together with it.
      * The runtime options for the JMH are available with "-h":
